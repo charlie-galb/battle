@@ -24,5 +24,6 @@ get "/thing" do
 end
 
 get "/cat" do
+  @rand_name = ["Kiril", "Charlie"].sample
   erb(:index)
 end
