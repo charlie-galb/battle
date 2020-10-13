@@ -1,4 +1,4 @@
-feature 'Testing infrastructure' do
+feature 'Testing enter names works' do
   scenario 'Can enter name and seeing them printed out on screen' do
     visit('/')
     fill_in('Player1_Name', with: 'Me')
