@@ -1,9 +1,9 @@
-require 'sinatra'
-
-set :session_secret, "My session secret"
+require 'sinatra/base'
 
 class Battle < Sinatra::Base
   enable :sessions
+  set :session_secret, "My session secret"
+
   get '/' do
     erb :index
   end

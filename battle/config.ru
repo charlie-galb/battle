@@ -1,2 +1,2 @@
 require './app.rb'
-run Sinatra::Battle
+run Battle
