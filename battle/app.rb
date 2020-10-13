@@ -1,5 +1,6 @@
 require 'sinatra'
 
+set :session_secret, "My session secret"
 
 class Battle < Sinatra::Base
   enable :sessions
